@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Scraped/raw data folders (not needed in repo)
+downloaded_threads/
+markdown_files/
+
+# WebP and other image files (if not needed)
+*.webp
+
+# System/IDE files
+.DS_Store
+Thumbs.db
+
+# API secrets
+.env
+
+# Playwright/automation auth
+auth.json
